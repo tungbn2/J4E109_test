@@ -42,6 +42,10 @@
     border-radius: 5px;
 }
 
+.content-check {
+    margin-top: 10px;
+}
+
 .content-btn {
     height: 30px;
     width: 30%;

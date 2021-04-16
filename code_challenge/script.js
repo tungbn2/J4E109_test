@@ -6,10 +6,8 @@ function check () {
     let input_value = parseFloat (input[0].value);
 
     if (time <=3){
-        console.log (input_value);
-        console.log (ketQua);
         if ((input_value == NaN)||(input_value>10)){
-            alert (`Nhập lần thứ ${time}:Bạn hãy nhập số. Đề nghị nhập lại`)
+            alert (`Nhập lần thứ ${time}:Bạn hãy nhập số. Đề nghị nhập lại`);
         } else if (input_value != ketQua) {
             alert (`Nhập lần thứ ${time}: Bạn đã nhập sai. Đề nghị nhập lại`);
         } else if (input_value == ketQua) {
@@ -22,6 +20,5 @@ function check () {
         time = 1;
         alert (`Bạn đã hết lượt. Kết quả là ${ketQua}`);
         ketQua = Math.floor (Math.random()*10);
-        
     }
 }
